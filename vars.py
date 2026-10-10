@@ -2,8 +2,8 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "25933223"))
-API_HASH = os.environ.get("API_HASH", "6ef5a426d85b7f01562a41e6416791d3")
+API_ID = int(os.environ.get("API_ID", "24368576"))
+API_HASH = os.environ.get("API_HASH", "8968f5cc5fe0c95f25b7b25ff0d322f2")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 CREDIT = os.environ.get("CREDIT", "")
@@ -13,8 +13,8 @@ DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://sujalbot:sujalbot@c
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-ADMINS = [6007732467]  # dono admins id list me
+OWNER_ID = int(os.environ.get("OWNER_ID", "8688655530"))
+ADMINS = [8688655530]  # dono admins id list me
 
 
 # Channel Configuration
